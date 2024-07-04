@@ -1,0 +1,75 @@
+# Ignorar archivos y directorios de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Ignorar archivos de configuración del editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar archivos de distribución y packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar base de datos SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# Ignorar archivos de pruebas y cobertura
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+*.hypothesis.json
+
+# Ignorar datos temporales de Jupyter Notebook
+.ipynb_checkpoints
+
+# Ignorar archivos del sistema
+Thumbs.db
+.DS_Store
+
+# Ignorar otros directorios temporales
+tmp/
+temp/
+
+# Ignorar archivos de Docker
+docker-compose.override.yml
+
+# Ignorar Dockerfile de desarrollo si lo tienes
+Dockerfile.dev
+
+# Ignorar configuraciones específicas del proyecto
+.env
+
+# Ignorar Base de datos sqlite3
+test.db
